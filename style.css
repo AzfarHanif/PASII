@@ -2,6 +2,11 @@ body{
     background-color: azure;
 }
 
+body.dark-mode{
+    background-color: #192A33;
+    color: antiquewhite;
+}
+
 /* header */
         .header {
             background-color: #fff;
@@ -11,9 +16,17 @@ body{
             align-items: center;
         }
 
+        .dark-mode .header{
+            background-color: #1e1e1e;
+        }
+
         .header h1 {
             color: black;
             font-size: 48px;
+        }
+
+        .dark-mode .header h1{
+            color: #f0f0f0;
         }
 
         /* navigation header */
@@ -34,6 +47,10 @@ body{
             font-weight: bold;
             padding: 8px 15px;
             transition: background-color 0.3s ease;
+        }
+
+        .dark-mode .nav a{
+            color: #f0f0f0;
         }
 
         /* Hover effect untuk warna teks */
@@ -100,11 +117,18 @@ body{
             text-align: center
         }
 
+        .dark-mode .popups{
+            background-color: darkslategray;
+            border: #192A33;
+            color: white;
+        }
+
         /* Tampilkan popup saat hover */
         .popups-container:hover .popups {
             display: block;
         }
 
+/* Main Container */
 .container h1{
     text-align: center;
 }
@@ -115,6 +139,11 @@ body{
     object-fit: cover; /* Crop to fill box */
     display: block;
     margin: 0 auto;
+}
+
+.dark-mode .card{
+    background-color: #000;
+    color: #f0f0f0;
 }
 
 .overlay {
@@ -144,6 +173,16 @@ body{
   .popup h2 {
     margin-top: 0;
   }
+
+  /* Gaya untuk footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 40px;
+        }
 
 
 
