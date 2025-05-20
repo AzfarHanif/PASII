@@ -11,15 +11,15 @@
     <!-- navbar -->
    <header class="header">
         <h1>Singapore</h1>
-        <div class="popup-container">
+        <div class="popups-container">
             <button class="trigger">Menu</button>
-            <div class="popup">
+            <div class="popups">
                 <nav>
                     <ul class="nav">
                         <li><a href="#">HOME</a></li>
-                        <li><a href="list.html">WISATA</a></li>
-                        <li><a href="tutorial.html">TUTORIAL</a></li>
-                        <li><a href="">Settimgs</a></li>
+                        <li><a href="list.html">Theme Park</a></li>
+                        <li><a href="tutorial.html">History</a></li>
+                        <li><a href="#" onclick="showPopup()">Settings</a></li>
                     </ul>
                 </nav>
             </div>
@@ -101,9 +101,28 @@
             </div>
         </div> 
       </div>
-   
     <!-- Footer Boxes -->
 
+    <!-- settings overlay -->
+        <div class="overlay" id="popupOverlay">
+          <div class="popup">
+            <h2>Dark Mode</h2>
+            <div class="ms-auto d-flex gap-2 align-items-center">
+              <div class="toggle-button">
+                <div class="form-check form-switch m-0">
+                  <input class="form-check-input" type="checkbox" id="toggle-dark-mode"
+                         style="transform: scale(1.5); cursor: pointer;">
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="button" onclick="closePopup()">Close</button>
+            </div>
+          </div>
+        </div>
+        <!-- settings overlay -->
+
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

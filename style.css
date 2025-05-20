@@ -19,25 +19,27 @@ body{
         /* navigation header */
         .nav {
             list-style: none;
-            display: flex;
-            gap: 30px;
+            padding: 0;
+            margin: 0;
         }
 
         .nav li { 
-            margin: 0 15px;
-            position: relative;
+            margin: 10 0px;
         }
 
         .nav a {
+            display: block;
             text-decoration: none;
             color: #000;
             font-weight: bold;
-            padding: 10px;
-            transition: color 0.3s ease;
+            padding: 8px 15px;
+            transition: background-color 0.3s ease;
         }
 
         /* Hover effect untuk warna teks */
         .nav a:hover {
+            background-color: #f0f0f0;
+            color: #40869A;
             color: #90C4D0;
         }
 
@@ -58,7 +60,7 @@ body{
             width: 100%;
         }
 
-        .popup-container {
+        .popups-container {
             position: relative;
             display: inline-block;
             /* margin: 50px; */
@@ -82,24 +84,24 @@ body{
         }
 
         /* Popup */
-        .popup {
+        .popups {
             display: none;
             position: absolute;
-            top: 10%; /* Posisi di bawah tombol */
-            left: -250px;
-            transform: translateX(-50%);
+            top: 100%; /* right below the trigger button */
+            left: 50%;
+            transform: translateX(-75%);
             background-color: #FFFFFF;
             border: 1px solid #40869A;
-            border-radius: 5px;
-            padding: 15px;
+            border-radius: 10px;
+            padding: 15px 0;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
             z-index: 10;
-            width: 600px;
-            text-align: center;
+            width: 200px;
+            text-align: center
         }
 
         /* Tampilkan popup saat hover */
-        .popup-container:hover .popup {
+        .popups-container:hover .popups {
             display: block;
         }
 
@@ -114,6 +116,34 @@ body{
     display: block;
     margin: 0 auto;
 }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none; /* Sembunyikan awalnya */
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+
+  .popup {
+    background: #1e1e1e;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .popup h2 {
+    margin-top: 0;
+  }
 
 
 
