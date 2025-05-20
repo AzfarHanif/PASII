@@ -2,6 +2,107 @@ body{
     background-color: azure;
 }
 
+/* header */
+        .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            color: black;
+            font-size: 48px;
+        }
+
+        /* navigation header */
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav li { 
+            margin: 0 15px;
+            position: relative;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        /* Hover effect untuk warna teks */
+        .nav a:hover {
+            color: #90C4D0;
+        }
+
+        /* Garis bawah animasi saat hover */
+        .nav li::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: #90C4D0;
+            transition: width 0.3s ease;
+        }
+
+        /* Garis bergerak saat hover */
+        .nav li:hover::before {
+            width: 100%;
+        }
+
+        .popup-container {
+            position: relative;
+            display: inline-block;
+            /* margin: 50px; */
+        }
+
+        /* Tombol trigger */
+        .trigger {
+            padding: 10px 20px;
+            background-color: #192A33;
+            color: whitesmoke;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* HOVER TRIGGER */
+        .trigger:hover {
+            background-color: #40869A;
+        }
+
+        /* Popup */
+        .popup {
+            display: none;
+            position: absolute;
+            top: 10%; /* Posisi di bawah tombol */
+            left: -250px;
+            transform: translateX(-50%);
+            background-color: #FFFFFF;
+            border: 1px solid #40869A;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+            width: 600px;
+            text-align: center;
+        }
+
+        /* Tampilkan popup saat hover */
+        .popup-container:hover .popup {
+            display: block;
+        }
+
 .container h1{
     text-align: center;
 }
