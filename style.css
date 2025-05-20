@@ -2,6 +2,18 @@ body{
     background-color: azure;
 }
 
+.container h1{
+    text-align: center;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Crop to fill box */
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
