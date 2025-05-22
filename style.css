@@ -1,5 +1,6 @@
 body{
-    background-color: azure;
+    /* background-color: azure; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body.dark-mode{
@@ -9,7 +10,7 @@ body.dark-mode{
 
 /* header */
         .header {
-            background-color: #fff;
+            background-color: gray;
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
@@ -224,26 +225,24 @@ body.dark-mode{
     margin-top: 0;
   }
 
-  /* recomendations place */
-  .recomendation{
-    align-items: center;
-    /* background-color: #40869A; */
-    text-align: center;
-  }
-
+  
   /* list per place */
     .containers {
       display: flex;
       flex-wrap: wrap;
+      margin: 0 100px;
+      margin-top: 10px;
+      /* background-color:  black; */
     }
     main {
       flex: 5;
-      background-color: #f9f9f9;
+      /* background-color: #f9f9f9; */
     }
     aside {
       flex: 1;
-      background-color: #e0e0e0;
-      padding: 5px;
+      background-color: white;
+      padding: 10px;
+      border-radius: 7px;
       height: fit-content;
     }
 
@@ -260,6 +259,23 @@ body.dark-mode{
         max-width: 700px;
         height: auto;
         align-items: center;
+    }
+
+    /* review place */
+    .review {
+        margin: 80px;
+        border: ridge;
+        align-items: center;
+        /* background-color: #40869A; */
+        text-align: center;
+        border-radius: 8px;
+    }
+    
+    .row-review {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: ridge; */
+        gap: 20px;
     }
 
 
