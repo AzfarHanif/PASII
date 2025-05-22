@@ -145,11 +145,11 @@ body.dark-mode{
 }
 
 .card-img-top {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /* Crop to fill box */
+     width: 100%;           /* Fill the card width */
+    height: 200px;         /* Keep fixed height or adjust */
+    object-fit: cover;     /* Crop to maintain aspect ratio */
     display: block;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .dark-mode .card{
@@ -223,6 +223,45 @@ body.dark-mode{
   .popup h2 {
     margin-top: 0;
   }
+
+  /* recomendations place */
+  .recomendation{
+    align-items: center;
+    /* background-color: #40869A; */
+    text-align: center;
+  }
+
+  /* list per place */
+    .containers {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    main {
+      flex: 5;
+      background-color: #f9f9f9;
+    }
+    aside {
+      flex: 1;
+      background-color: #e0e0e0;
+      padding: 5px;
+      height: fit-content;
+    }
+
+    aside button{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    aside img{
+        max-height: 450px;
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+        align-items: center;
+    }
+
 
   /* Gaya untuk footer */
         .footer {
