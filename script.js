@@ -37,3 +37,11 @@ function showPopup() {
 function closePopup() {
   document.getElementById('popupOverlay').style.display = 'none';
 }
+
+function showBooking() {
+    document.getElementById("bookingOverlay").style.display = 'flex';
+}
+
+function closeBooking() {
+    document.getElementById("bookingOverlay").style.display = 'none';
+}

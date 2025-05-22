@@ -10,7 +10,7 @@ body.dark-mode{
 
 /* header */
         .header {
-            background-color: gray;
+            background-color: #333;
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
@@ -22,7 +22,7 @@ body.dark-mode{
         }
 
         .header h1 {
-            color: black;
+            color: #f0f0f0;
             font-size: 48px;
         }
 
