@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singapore - Merlion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+     <!-- navbar -->
+   <header class="header" id="navbar">
+        <h1>Singapore</h1>
+        <div class="popups-container">
+            <button class="trigger">Menu</button>
+            <div class="popups">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="list.html">Theme Park</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="#" onclick="showPopup()">Settings</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+      <!-- navbar -->
+  <div class="containers">
+    <main>
+      <h2>Chilli Crab</h2>
+      <article>
+        Chilli crab is a sweet, savory, and slightly spicy crab dish, typically made with mud crabs stir-fried in a rich tomato and chilli-based sauce. Despite its name, the dish isn't usually very spicy—it's more of a balanced, flavorful sauce with a touch of heat.
+      </article>
+
+      <article>
+        <h2>Main Ingredients</h2>
+        > Fresh crab (usually mud crab)
+        <br>
+        > Garlic & ginger
+        <br>
+        > Chilli sauce or paste (like sambal)
+        <br>
+        > Tomato ketchup or puree
+        <br>
+        > Eggs (beaten and stirred in to give a silky texture)
+        <br>
+        > Soy sauce, sugar, vinegar
+        <br>
+        > Cornstarch slurry (to thicken the sauce)
+
+
+      </article>
+
+      <article>
+        <h2>How it's eaten</h2>
+        The most famous Merlion statue is located at Merlion Park, near Marina Bay. It is:
+        <br>
+        > Served whole with shell on — so it's messy but fun to eat!
+        <br>
+        > Often paired with steamed or fried mantou buns (soft Chinese buns) to soak up the rich sauce.
+      </article>
+
+      <br>
+
+      <article>
+        <h2>🇸🇬 Origins </h2>
+        > Invented in Singapore in the 1950s, reportedly by a couple who ran a pushcart food stall.
+        <br>
+        > Over time, it evolved into the iconic dish it is today, commonly found in hawker centers and seafood restaurants.
+      </article>
+
+      <article>
+        <h2>Fun Facts</h2>
+            Despite its fame, chilli crab is not fiery hot. If you want something spicier, Singapore also has black pepper crab, which packs more of a punch.
+      </article>
+    </main>
+
+    <aside>
+        <h3>Merlion Singapore</h3>
+      <img src="assets/list/chilli_crab.png" alt="">
+      <!-- <a href="https://maps.app.goo.gl/9Ac8AzamMdFhwRx26"><button type="button">Location</button></a> -->
+      <a href="#" onclick="showBooking()"><button type="button">Location</button></a>
+    </aside>
+  </div>
+
+  <!-- <div class="review">
+    <article>
+    <h1>Rewards</h1>
+        1. Forbes Travel Guide 2024 – Five-Star Hotel
+        <br>
+        2. Michelin Guide 2024 – One Michelin Star for Summer Pavilion
+        <br>
+        3. Condé Nast Traveler Readers’ Choice Awards 2023
+    </article>
+  </div> -->
+
+    <!-- List -->
+   <div class="container mt-4 mb-4" id="mainSection">
+    <h1>Our Recomendation</h1>   
+        <div class="row mb-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="intercontinental.html"><img src="assets/list/InterContinental_Singapore.png" class="card-img-top" alt="Image 1"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">InterContinental Singapore</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="fourseasons.html"><img src="assets/list/Four_Seasons_Hotel_Singapore.png" class="card-img-top" alt="Image 1"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Four Seasons Hotel</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="universal.html"><img src="assets/index/universal_studio.png" class="card-img-top" alt="Image 1"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Universal Studio</h5>
+                    </div>
+                </div>
+            </div>
+        </div> 
+      </div>
+    <!-- List -->
+    
+      <!-- settings overlay -->
+        <div class="overlay" id="popupOverlay">
+          <div class="popup">
+            <h2>Dark Mode</h2>
+            <div class="ms-auto d-flex gap-2 align-items-center">
+              <div class="toggle-button">
+                <div class="form-check form-switch m-0">
+                  <input class="form-check-input" type="checkbox" id="toggle-dark-mode"
+                         style="transform: scale(1.5); cursor: pointer;">
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="button" onclick="closePopup()">Close</button>
+            </div>
+          </div>
+        </div>
+        <!-- settings overlay -->
+
+    <!-- Booking overlay -->
+     <div class="overlay" id="bookingOverlay">
+          <div class="popup">
+            <h2>Booking</h2>
+            <div class="ms-auto d-flex gap-2 align-items-left">
+              <nav>
+                <ul>
+                    <li><a href="https://www.google.com/maps/search/?api=1&query=JUMBO+Seafood+The+Riverwalk+Singapore">JUMBO Seafood @ The Riverwalk</a></li>
+                    <li><a href="https://www.google.com/maps/search/?api=1&query=Long+Beach+Seafood+Restaurant+Dempsey+Hill+Singapore">Long Beach Seafood Restaurant @ Dempsey Hill</a></li>
+                    <li><a href="https://www.google.com/maps/search/?api=1&query=Roland+Restaurant+Singapore">Roland Restaurant</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="buttons">
+              <button class="button" onclick="closeBooking()">Close</button>
+            </div>
+          </div>
+        </div>
+    <!-- Booking overlays -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        Copyright © 2024 - Zpall. All Rights Reserved.
+    </footer>
+    <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+</body>
+</html>
