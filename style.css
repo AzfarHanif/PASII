@@ -8,6 +8,7 @@ body.dark-mode{
     color: antiquewhite;
 }
 
+
 /* header */
         .header {
             background-color: #333;
@@ -163,6 +164,7 @@ body.dark-mode{
     cursor: pointer;
     border-radius: 15px;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .card:hover {
@@ -242,8 +244,14 @@ body.dark-mode{
       flex: 1;
       background-color: white;
       padding: 10px;
+      margin-left: 10px;
+      margin-top: 30px;
       border-radius: 7px;
       height: fit-content;
+    }
+
+    .dark-mode aside{
+        background-color: #194653;
     }
 
     aside button{
@@ -251,6 +259,11 @@ body.dark-mode{
         width: 100%;
         height: auto;
         background-color: whitesmoke;
+    }
+
+    .dark-mode aside button{
+        background-color: #1B1A55;;
+        color: #E3D095;
     }
 
     aside img{
