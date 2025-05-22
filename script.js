@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Optional: update navbar
     if (nav) {
-      nav.classList.add('bg-dark');
-      nav.classList.remove('bg-light');
+      // nav.classList.add('bg-dark');
+      // nav.classList.remove('bg-light');
     }
   }
 
@@ -39,8 +39,8 @@ if (darkModeToggle) {
 
     // Optional: navbar toggle
     if (nav) {
-      nav.classList.toggle('bg-dark', enableDark);
-      nav.classList.toggle('bg-light', !enableDark);
+      // nav.classList.toggle('bg-dark', enableDark);
+      // nav.classList.toggle('bg-light', !enableDark);
     }
 
     // Save preference

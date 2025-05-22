@@ -1,5 +1,5 @@
-body{
-    /* background-color: azure; */
+body{   
+    background-color: #FBFBFB;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -11,7 +11,7 @@ body.dark-mode{
 
 /* header */
         .header {
-            background-color: #333;
+            background-color: #E8F9FF;
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
@@ -23,7 +23,7 @@ body.dark-mode{
         }
 
         .header h1 {
-            color: #f0f0f0;
+            color: #C5BAFF;
             font-size: 48px;
         }
 
@@ -45,7 +45,7 @@ body.dark-mode{
         .nav a {
             display: block;
             text-decoration: none;
-            color: #000;
+            color: #C5BAFF;
             font-weight: bold;
             padding: 8px 15px;
             transition: background-color 0.3s ease;
@@ -95,8 +95,8 @@ body.dark-mode{
         /* Tombol trigger */
         .trigger {
             padding: 10px 20px;
-            background-color: #192A33;
-            color: whitesmoke;
+            background-color: #90C4D0;;
+            color: black;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -170,6 +170,11 @@ body.dark-mode{
 .card:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    background-color: #C5BAFF;
+    color: #535C91;
+}
+
+.dark-mode .card:hover {
     background-color: #E3D095;
 }
 
@@ -248,17 +253,24 @@ body.dark-mode{
       margin-top: 30px;
       border-radius: 7px;
       height: fit-content;
+      color: #90C4D0;
     }
 
     .dark-mode aside{
-        background-color: #194653;
+        background-color: #070F2B;
     }
 
     aside button{
         margin-top: 10px;
         width: 100%;
         height: auto;
-        background-color: whitesmoke;
+        background-color: #C4D9FF;; 
+        border-radius: 7px;
+    }
+
+    aside button:hover{
+        transform: scale(1.1);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     }
 
     .dark-mode aside button{
@@ -294,8 +306,8 @@ body.dark-mode{
 
   /* Gaya untuk footer */
         .footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #E8F9FF;;
+            color: black;
             padding: 20px;
             text-align: center;
             font-size: 14px;
