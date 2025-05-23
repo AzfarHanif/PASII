@@ -51,6 +51,14 @@ body.dark-mode{
             transition: background-color 0.3s ease;
         }
 
+        .active a {
+            color: #ffffff;
+            background-color: #007bff; /* Highlight background */
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 5px 10px;
+        }
+
         .dark-mode .nav a{
             color: #f0f0f0;
         }
