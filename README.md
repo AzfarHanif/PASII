@@ -1,3 +1,16 @@
+# 1.1 UPDATE LOG <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=browser_updated" />
+- Set **Dark Mode** as the default theme
+  *You still able to change the theme to the light mode
+- Fixed various **bug issues** for improved stability
+  those bugs are:
+  -fixed Button does not working on Intercontinental hotels section
+  -fixed Offset title on article
+  -fixed image does not match with the title
+- Improved **padding and margin** for better layout consistency
+  those are:
+  -text and image are divided by 4:2 respectively now
+  -padding incresead up to 30px each side
+
 # Discover Singapore: A Digital Gateway to the Lion City 🦁🇸🇬
 
 Welcome to the **Singapore Tourism Web Guide**, a curated directory and overview of the best websites to explore everything about Singapore — from adrenaline-pumping theme parks and world-famous street food to luxurious hotels and rich historical heritage.
