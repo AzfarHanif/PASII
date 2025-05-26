@@ -81,7 +81,7 @@
     <aside>
       <img src="assets/list/InterContinental_Singapore.png" alt="">
       <a href="https://www.google.com/maps/dir//80+Middle+Rd,+InterContinental+Singapore,+Singapore+188966/@1.2942998,103.8364599,15z/data=!3m1!5s0x31da19babbb81d39:0xad0170a73a9571d0!4m8!4m7!1m0!1m5!1m1!1s0x31da19baca7d1665:0x1b3efd4f9bc71de1!2m2!1d103.854865!2d1.2984504?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D"><button type="button">Location</button></a>
-      <a href="#"><button type="button">Booking</button></a>
+      <a href="#" onclick="showBooking()"><button type="button">Booking</button></a>
     </aside>
   </div>
 
@@ -132,7 +132,7 @@
     <!-- List -->
     
       <!-- settings overlay -->
-        <div class="overlay" id="bookingOverlay">
+        <div class="overlay" id="popupOverlay">
           <div class="popup">
             <h2>Dark Mode</h2>
             <div class="ms-auto d-flex gap-2 align-items-center">
@@ -157,9 +157,8 @@
             <div class="ms-auto d-flex gap-2 align-items-left">
               <nav>
                 <ul>
-                    <li><a href="https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwib0enVqreNAxUwqWYCHU2-CigYABAEGgJzbQ%26co%3D1%26ase%3D2%26gclid%3DCj0KCQjwlrvBBhDnARIsAHEQgOQ7ZDNNIVVRWSvVdo3ungR6MkoE0MRW4zauiV6jDpOiJxqn2_BSDU0aAoasEALw_wcB%26category%3Dacrcp_v1_0%26sig%3DAOD64_0bkW3_R8JpikiPCxK-zoKHH3D7WA%26adurl%26nis%3D4">Official Website</a></li>
-                    <li><a href="https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwib0enVqreNAxUwqWYCHU2-CigYABAFGgJzbQ%26co%3D1%26ase%3D2%26gclid%3DCj0KCQjwlrvBBhDnARIsAHEQgORM3BluNQy96cmOOjsvFnc2L9dGQTZ53f7cEsG4vdJAqYqCo54QWJIaAvHHEALw_wcB%26category%3Dacrcp_v1_0%26sig%3DAOD64_1-ZrmLH1GfoD4fCl2KtaksBUeyFg%26adurl%26nis%3D4">Trip.Com</a></li>
-                    <li><a href="https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwib0enVqreNAxUwqWYCHU2-CigYABAGGgJzbQ%26co%3D1%26ase%3D2%26gclid%3DCj0KCQjwlrvBBhDnARIsAHEQgOTSdi4H3xVhFTTGSCTszE0ttBDTBkSO0sdCaPfeJ9j6M1HqniBtbqUaAsrlEALw_wcB%26category%3Dacrcp_v1_0%26sig%3DAOD64_26nOAybg5Br3lXbeE7rUWFwLuZfQ%26adurl%26nis%3D4">Booking.Com</a></li>
+                    <li><a href="https://www.intercontinental.com/hotels/us/en/singapore/sinhb/hoteldetail?Cm_mmc=FM-_-PS-_-B-_-Geo&dp=true&gad_source=1&gad_campaignid=20479627871&gbraid=0AAAAACn2jLe3WIvO66ohJ2I5ooBAvPHPz&gclid=Cj0KCQjwotDBBhCQARIsAG5pinPR5LVu3c-Zu6U2DyZuTJpDXYgjuiT3lYCwqqbckzsXty-BRwHwQ7gaAp6xEALw_wcB">Official Website</a></li>
+                    <li><a href="https://id.trip.com/hotels/list/searchresults?city=73&hotelid=1048889&locale=en_id&curr=idr&allianceid=14901&sid=4232509&ppcid=ckid-57323659081_adid-672575808669_akid-kwd-344117832159_adgid-158760559168&utm_source=google&utm_medium=cpc&utm_campaign=15570995743&gad_source=1&gad_campaignid=15570995743&gbraid=0AAAAABn2eFL43dQbmH_C1hoXU91_eJUqY&gclid=Cj0KCQjwotDBBhCQARIsAG5pinNxFeNa_UuUQynE1T7_fkOiPaoxPkxeoo_BrvOO6O6Rr3IeAbiuqH4aAt6vEALw_wcB">Trip.Com</a></li>
                 </ul>
               </nav>
             </div>

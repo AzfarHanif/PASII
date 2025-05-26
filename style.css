@@ -152,6 +152,7 @@ body.dark-mode{
 /* Main Container */
 .container h1{
     text-align: center;
+    margin-top: 80px;
 }
 
 .card-img-top {
@@ -246,22 +247,27 @@ body.dark-mode{
       display: flex;
       flex-wrap: wrap;
       margin: 0 100px;
-      margin-top: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
       /* background-color:  black; */
     }
     main {
-      flex: 5;
+      flex: 4;
       /* background-color: #f9f9f9; */
     }
     aside {
-      flex: 1;
+      flex: 2;
       background-color: white;
       padding: 10px;
-      margin-left: 10px;
-      margin-top: 30px;
+      /* margin-left: 10px;
+      margin-top: 30px; */
       border-radius: 7px;
       height: fit-content;
       color: #90C4D0;
+    }
+
+    article{
+        padding-bottom: 25px;
     }
 
     .dark-mode aside{
