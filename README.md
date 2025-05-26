@@ -1,4 +1,4 @@
-# 1.1 UPDATE LOG <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=browser_updated" />
+# 1.1 UPDATE LOG 
 - Set **Dark Mode** as the default theme
   *You still able to change the theme to the light mode
 - Fixed various **bug issues** for improved stability
