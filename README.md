@@ -1,15 +1,23 @@
-# 1.1 UPDATE LOG 
-- Set **Dark Mode** as the default theme
-  *You still able to change the theme to the light mode
-- Fixed various **bug issues** for improved stability
-  those bugs are:
-  -fixed Button does not working on Intercontinental hotels section
-  -fixed Offset title on article
-  -fixed image does not match with the title
-- Improved **padding and margin** for better layout consistency
-  those are:
-  -text and image are divided by 4:2 respectively now
-  -padding incresead up to 30px each side
+# 1.1 UPDATE LOG
+
+- Set **Dark Mode** as the default theme  
+  *You still can change the theme to Light Mode*
+
+---
+
+- Fixed various **bug issues** for improved stability  
+  Those bugs include:
+  - Fixed button not working in *Intercontinental Hotels* section  
+  - Fixed offset title on article  
+  - Fixed image mismatch with the title
+
+---
+
+- Improved **padding and margin** for better layout consistency  
+  Changes made:
+  - Text and image are now divided by a 4:2 ratio  
+  - Padding increased to 30px on each side
+
 
 # Discover Singapore: A Digital Gateway to the Lion City 🦁🇸🇬
 
